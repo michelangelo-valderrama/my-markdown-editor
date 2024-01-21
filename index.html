@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + TS</title>
+  </head>
+  <body>
+    <main>
+      <button id="toggle">Toggle</button>
+      <div class="markdown-editor">
+        <p class="markdown-editor__title">Markdown editor</p>
+        <div id="code-mirror-editor"></div>
+      </div>
+      <div class="markdown-preview">
+        <p class="markdown-preview__title">Markdown preview</p>
+        <div id="remark-rehype"></div>
+      </div>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
